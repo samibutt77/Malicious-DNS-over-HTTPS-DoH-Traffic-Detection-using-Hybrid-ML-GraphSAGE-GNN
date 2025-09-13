@@ -19,4 +19,5 @@ To run this project, first create a Python virtual environment and install the r
 ```bash
 pip install -r requirements.txt
 
-Note: torch-geometric has additional dependencies (torch-scatter, torch-sparse, etc.). It is recommended to follow the official installation instructions at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html to ensure compatibility with your PyTorch version.
+Note: torch-geometric has additional dependencies (torch-scatter, torch-sparse, etc.). It is recommended to follow the official installation instructions at
+https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html to ensure compatibility with your PyTorch version.
