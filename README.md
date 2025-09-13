@@ -6,7 +6,7 @@ This project implements a hybrid deep learning approach to detect malicious DNS-
 - **L1:** Detecting DoH vs Non-DoH traffic.  
 - **L2:** Detecting Benign vs Malicious DoH traffic.
 
-The workflow starts with preprocessing, including label encoding, feature scaling, and handling class imbalance using SMOTE. Initial experiments use Logistic Regression for baseline classification and feature importance extraction through model coefficients and permutation importance.
+The workflow starts with preprocessing, including label encoding, feature scaling, and handling class imbalance using SMOTE. Initial experiments use **Logistic Regression** for baseline classification and feature importance extraction through model coefficients and permutation importance.
 
 For advanced modeling, traffic flows are represented as a graph where each node corresponds to a network flow and edges connect temporally neighboring flows. A **GraphSAGE GNN** is trained to leverage both node features and relational information, providing robust detection performance. The system outputs classification metrics, including accuracy, precision, recall, F1-score, ROC-AUC, and confusion matrices.
 
